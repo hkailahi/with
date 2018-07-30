@@ -18,7 +18,6 @@ source-repository head
 
 library
   exposed-modules: Data.With
-  build-depends: base == 4.*
   default-language: Haskell2010
   default-extensions: NoImplicitPrelude, ExplicitNamespaces, GADTs, PackageImports, TypeOperators
   ghc-options: -fno-warn-tabs
